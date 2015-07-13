@@ -38,6 +38,12 @@ Problem: Need to establish payment channels between each requester and each prov
 
 Idea: Every requester establishes a payment channel with a hub and the hub establishes payment channels with each provider. 
 
+## Personal Data Markets
+https://datacoup.com
+http://www.handshake.uk.com/
+
+http://thenextweb.com/insider/2013/09/17/whats-the-true-value-of-your-personal-data-meet-the-people-who-want-to-help-you-sell-it/
+
 
 
 ## Related Work
