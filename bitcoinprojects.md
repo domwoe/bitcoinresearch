@@ -23,10 +23,31 @@
 * [Stampery](https://stampery.co/)
   * Notary service
 
+* [BitMesh](https://bitmesh.network/)
+  * Bitcoin-payed meshed networking
+
+* [Wrte.io](https://wrte.io/)
+ * Forward email only when money is paid
+
+* [Sato.sh](http://sato.sh/)
+ * Social network where you get paid for content 
+
+* [Shocard](http://www.shocard.com/)
+ * Identity
+
+* [Enigma](http://enigma.media.mit.edu/)
+ *
+
 
 ## Other Blockchain-based Projects
 
 * [Augur](http://www.augur.net)
   * Prediction market
   * based on Ethereum
+
+
+* [Hawk](http://oblivm.com/hawk/)
+  * Privacy-preserving Blockchain and Smart Contracts
+  * Tx on the Blockchain are encrypted
+  * Project of people from Cornell and U. of Maryland
 
