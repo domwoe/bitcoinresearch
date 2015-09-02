@@ -1,0 +1,172 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts}
+\usepackage{scrpage2}
+\usepackage{scrtime}
+\usepackage{setspace}
+\usepackage[
+backend=biber, 
+style=authoryear-ibid,
+sorting=nyt, 
+hyperref=false, 
+backref=false, 
+%url=false, 
+isbn=false, 
+doi=false, 
+firstinits=true, % render first and middle names as initials
+uniquename=init, 
+maxbibnames=10,
+maxcitenames=2, %3 already et. al? 
+uniquelist=false % needs to be set, otherwise maxcitenames is ignored (default of maxcitenames is 3)
+]{biblatex}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{verbatim}
+%\usepackage{bibunits}
+\usepackage{float}
+
+\addbibresource{datamarket.bib}
+
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\title{Research Plan \\
+	Sensing-as-a-Service and real-time data markets using Bitcoin}
+\author{Dominic W\"orner, ETH Zurich}
+\date{August 2015}
+
+\begin{document}
+
+\maketitle
+
+    
+\section{Research project}
+% State of general and own research
+% Aims
+% Questions to be answered
+% Hypotheses
+% Importance of the project
+% Methods
+
+%Cryptocurrencies as a means for decentralized real-time data markets
+% \subsection{Motivation}
+% \textit{Data are becoming the new raw material of business} said Craig Mundie, head of research and strategy of Microsoft. Each of us is constantly producing data. We tell Google what's on our mind, we like on Facebook, we tweet our opinions, share our views with Instagram, and our location with our telecommunications provider. A 2012 study of the Boston Consulting Group estimated that organizations can unlock 330 billion by 2020 by using such personal data if they have access to it. But this is by far not the only source of data. Propelled by Moore's Law an ever increasing number of physical objects around us is getting equipped with sensors and networking capabilities to form the Internet of Things (IOT).
+% In a recent report McKinsey Global Institute projected a potential economic impact of the IOT of \$4 trillion to \$11 trillion a year in 2025. However, on average 40 percent of this value is only captured if systems are inter operable and data are shared between applications. Nevertheless, data today lives mostly in vertically integrated applications, so called silos, where its value is never fully exhausted.
+% Therefore, it is important that data are flowing, are accessible for various parties and applications, but with consent and benefit for the one who is creating these data. Cryptocurrencies like Bitcoin and the associated technologies might be able to support this endeavor.
+
+
+% \subsection{Personal path to current project}
+% The general mode of research at our chair is to take a deep dive into a \textit{vertical} by building prototypes of information systems and using these as data generators to gain scientific insights. In my case the vertical is smart heating, an integral part of an energy-aware smart home. Together with a colleague, we built Cirql\footnote{http://www.cirql.ch/}, a retrofit, single-room heating solution with the aim to use the smartphone's location information to provide energy savings without loss of convenience and comfort. Cirql is further able to connect to Netatmo room climate sensors\footnote{https://www.netatmo.com/en-US/product/weather-station} which provide better room temperature information (for control) and air quality information. In an earlier prototype we implemented a feature called ventilation assistant that used outdoor data, as well as current and historical indoor data to provide an estimated ventilation time. These data of an outdoor climate station are of course not only of value for the person who owns the station but should be publicly available. However what is the incentive for the owner to make the data public?
+
+% Another example where data collected in one application is useful for another is shown in \cite{Worner2014}. Here, we used the room-level air quality ($C0_{2}$) data to infer occupancy information by applying a Hidden Markov Model.
+
+% This got me thinking about the Sensing-as-a-Service model and data markets. Together with colleagues who observed the development of Bitcoin, we noticed that this could be a fruitful connection.     
+
+
+
+% One way to segment the IOT is to distinguish between B2B and consumer applications.  
+
+%Public good
+
+\subsection{Motiviation}
+
+The vision of the Internet of Things is that \textit{anything communicates, anything is identified and anything interacts} \parencite{Miorandi2012}.
+Although already envisioned by Mark Weiser in 1991 \parencite{weiser1991computer} and coined by Kevin Ashton in 1999 \parencite{ashton2009internet} the Internet of Things is still in its infancy. Similar to preceding phases of the Internet new business models are expected to emerge \parencite{fleisch2014business}. One of the latest trends in IT with massive economic impact is the cloud computing paradigm \parencite{Armbrust:2010:VCC:1721654.1721672} with the corresponding \textit{as a Service} \parencite{10.1109/MC.2011.67} business model pattern. Combining this pattern with the 25-50 billion connected devices that will digitize their physical environments within the next decade, we expect that \textit{Sensing-as-a-Service} will arise. More general, we expect that real-time data, collected for one application at one place, will be valuable for various other applications locally and globally. Therefore, an infrastructure is needed that provides the ability, as well as the incentive, to share data. Bitcoin, and technologies based on the new concept of \textit{cryptocurrencies}, may just be able to provide that. 
+
+\subsection{Aim}
+My research is centered around the idea of an economic layer for the Internet of Things that is based on Bitcoin and investigates the concept of offering real-time sensor data in a global market in particular. The main artifact is the exchange of data and money on a protocol level and is instantiated in increasing levels of sophistication following the design science research paradigm.
+
+\subsection{State of research}
+
+\subsubsection{Sensing-as-a-Service and mobile crowdsensing}
+Sensing-as-a-Service makes a digital resource, real-time measurement data, of a physical device, a sensor, available to multiple applications and multiple parties. Therefore it aims to provide better utilization of a physical resource in the same way as cloud computing does for computing infrastructure, AirBnB does for apartments, and Uber does for taxis.
+ 
+ We distinguish two types of sensors (1) fixed sensors, and (2) mobile sensors. Fixed sensors are sensors that are deployed at a particular location and usually also for a particular task (e.g. measuring air quality in Zurich). Mobile sensors are not deployed for a specific sensing task but may provide measurements in different contexts. A prominent example for a mobile sensor platform is the smartphone. Researchers have recognized the potential of the smartphone for mobile crowdsensing early on \parencite{burke2006participatory,6069707}. There have been numerous proposals of architectures for application-agnostic implementations \parencite{Perera:2014iz,Distefano:2015ir}. However, successful implementations are application-specific and provide a service to the user in order to incentivize participation (e.g. Waze\footnote{https://www.waze.com/}). Unsurprisingly, monetary rewards have been shown to be an effective incentive mechanism and various pricing mechanism have been proposed \parencite{7055221,7065282}. However, in a general setting where opportunistic measurements can be carried out automatically, induced by various stakeholders, a global payment system that enables the transfer of very small amounts of money is needed. Since previous studies have been in small-scale and local settings or in form of simulations this important point has been neglected so far.
+
+Fixed sensors typically form wireless sensor networks, deployed by companies, if they amortize in a particular application. However, the measurement data might also be useful for third parties and could therefore be an additional revenue stream. Also consumer IoT devices (e.g. Netatmo weather station\footnote{https://www.netatmo.com/de-DE/produkt/wetterstation}) could perform sensing tasks for third parties without having to invest in sensing infrastructures. The maker movement \parencite{anderson2013makers} that is reinforced by the consumerization of additive manufacturing technologies like 3D printing contributes to this trend of consumer sensing devices even further. Nevertheless, most sensor data still lives in silos and no real-time sensor data markets have appeared. \cite{Bohli:2009:IOE:1517480.1517491} discussed the economics of an IoT data market. They recognized the inherent network effects between data producers and data consumers and highlighted the importance of incentives to stimulate participation of individual data producers in order to bootstrap such a market. 
+
+\subsubsection{Bitcoin}
+Bitcoin was released in form of a whitepaper \parencite{nakamoto2008bitcoin} in late 2008, and in form of a reference client in the beginning of 2009. Bitcoin is an ingenious combination of cryptographic primitives and an incentive schema to enable the first digital currency that relies on a peer-to-peer network of voluntary participants instead of a central authority to prevent double spending. More generally it provides the first practical solution to a long standing problem in distributed computing, the Byzantine Generals Problem \parencite{Lamport:1982:BGP:357172.357176}. The consensus about ownership of bitcoins is determined by the blockchain, a ledger that is replicated across all nodes of the peer-to-peer network. The blockchain is an append-only linked data structure that is extended by special nodes, called miners. Miners collect valid transactions in the network, consolidate them in form of a block, and compete against each other in solving a computational puzzle to add their block to the blockchain. The rational behind this mechanism, called proof-of-work, is to have voting power according to provided computing power, and thus being resistant against sybil attacks \parencite{douceur2002sybil}. Each new block provides a geometrically decreasing reward\footnote{The initial reward was 50 BTC; halving every 2 years.} that the miner can claim besides (voluntary) transaction fees. Therefore, Bitcoin has a predetermined supply with a cap of 21 million BTC.
+
+\subsubsection{Bitcoin as an enabler of Sensing-as-a-Service}
+
+Bitcoin is open and censorship resistant. Everyone and \textit{everything} can create an account\footnote{More precisely a ECDSA key pair is created.} and receive bitcoins\footnote{You don't even need to be online for that}. In a similar way as machines can transfer information between each other via the Internet by speaking IP, machines can transfer value between each other via the Internet by speaking Bitcoin.
+Furthermore, Bitcoin has an embedded scripting language which can be used to impose particular conditions on transactions. Thus, Bitcoin represents the first kind of programmable money. In \cite{DBLP:journals/corr/NoyenVWF14}, we discussed further characteristics of Bitcoin from the perspective of the Sensing-as-a-Service model. Moreover, we presented the concept of exchanging money and data by only relying on the Bitcoin network as transport infrastructure. 
+
+A prototypical implementation of the concept using an embedded Linux computer with an attached CO$_{2}$ sensor was presented at UbiComp \parencite{Worner:2014:YSE:2638728.2638786} and covered in CoinDesk\footnote{http://www.coindesk.com/bitcoin-transform-internet-things-vast-data-marketplace/}, the leading Bitcoin news site. In this paper, we also discussed the limitations of the presented concept. The two main limitations are (1) Bitcoin itself is not suitable for small payments, and (2) The Bitcoin network and the Bitcoin blockchain themselves are not suitable as an infrastructure to exchange data between two parties.
+
+\subsection{Current and future work}
+
+\subsubsection{Enabling Bitcoin nanopayments in Sensing-as-a-Service context}
+
+Bitcoin is often introduced as a fee-less payment network that enables micropayments. However, industry definitions of micropayments are approximately amounts smaller than $\$10$ whereas individual sensor measurements may be priced on the order of $\$10^{-5}$. We define payments of these amounts as \textit{nanopayments}. While it might be possible to send such small amounts using Bitcoin it would be expensive for the receiver to spend those coins\footnote{This is due to the special structure of Bitcoin transactions. A simple introduction to Bitcoin transaction fees can be found on http://bitcoinfees.com/}. Furthermore, the nature of distributed consensus at the core of Bitcoin makes instant payments impossible which would be needed for real-time payment of data\footnote{In fact, in general a transaction is typically assumed to be final after approximately 60 min.}. However, the programmability of Bitcoin can be used to build layers on top of Bitcoin such that the actual Bitcoin network is only used for initiating contracts\footnote{https://en.bitcoin.it/wiki/Contract} and settling of disputes. The simplest example of such a system is a Bitcoin payment channel. This is a one-directional pre-funded channel that allows to send repeating payments instantly from one party to another where each individual payment can be worth as little as $10^{-8}$ BTC\footnote{currently approximately $\$0.000003$}. In the Sensing-as-a-Service model, a data consumer might potentially need to acquire data from a vast amount sensors and would therefore require to establish pre-funded payment channels with all of them which is not practical. Generalizations to bidirectional payment channels where payments can be routed through multiple hops without having to trust the routers have been proposed recently \parencite{poonbitcoin,decker2015Duplex}. However no implementations are available yet. In a collaboration with Christian Decker from the chair for distributed computing at ETH, we developed a simplified scheme that is currently being implemented by Francisc Bungiu in a jointly supervised master thesis.
+
+\subsubsection{Mobile crowdsensing as a prototypical Sensing-as-a-Service application}
+\label{subsubsec:app}
+
+In order to demonstrate and evaluate the Sensing-as-a-Service model using Bitcoin nanopayments we are implementing an Android application that allows the user to specify sensor data he is willing to sell together with a price. Besides typical sensor data like e.g. temperature, barometric pressure, in this scenario sensor data could also mean location, wifi ssids, installed apps and currently running apps for example. Hence, the user might disclose personally identifiable information. Therefore, the app could be used to investigate the interplay between monetary incentives and the willingness to disclose such data in a real-world setting (c.f. \parencite{Staiano:2014jm}). 
+
+\subsubsection{Towards a real-time data market}
+
+Today, there are data brokers and market places for aggregated data sets \parencite{schomm2013marketplaces,stahl2014data}. Furthermore, individual-facing brokers for personal and social media data emerge\footnote{e.g. https://datacoup.com/}.
+
+However, smartphones and other sensors that offer their sensing capabilities and their measurement data via the Internet would constitute the producing side of a global real-time data market. Thus far, we have omitted the consuming side. Who would be interested in acquiring real-time sensor data?
+
+We initially focus on the crowdsensing case and approach this question by building and advertising a landing page for the crowdsensing application described in section \ref{subsubsec:app}. With the landing page we aim for attracting both potential producers and consumers. In order to get more information visitors will have to fill out a short survey and provide contact information for further inquiry.
+This approach has been proven effective in the acquisition of field study participants in our Cirql project\footnote{http://www.cirql.ch}.
+
+Furthermore, we will select some of the most important data brokers, Internet of Things companies, and Internet of Things data platforms and interview them about their view on real-time data markets.
+
+My inviting group is developing an infrastructure to create a transparent and privacy-preserving data market based on Blockchain technology and secure multi-party computation, called Enigma \parencite{zyskind2015enigma, zyskind2015decentralizing}. They are planning a field study for the beginning of 2016 where data is collected using a smartphone app based on the funf framework \parencite{Aharony:2011:SFI:2072697.2073099}. However the complexity of the approach prohibits a real-time scenario. In addition to a  collaboration on a technological level, this field study will also provide access to further data market participants. In particular it will be interesting to investigate how important the real-time aspect is seen.
+
+
+\subsection{Overarching Methodology}
+Information systems research is an interdisciplinary and applied field of research living at the intersection of economics and computer science. My research follows the design science paradigm which \textit{seeks to extend the boundaries of human and organizational capabilities by creating new and innovative artifacts} \parencite{Hevner:2004:DSI:2017212.2017217}. More specifically the design science research methodology of \cite{Peffers:2007:DSR:1481765.1481768} which includes six steps: (1) problem identification and motivation, (2) definition of the objectives for a solution, (3) design and development, (4) demonstration, (5) evaluation, and (6) communication. Thereby it is important to note that the research methodology is cyclical which comparable to the agile process in software development. The main artifact under investigation is the general concept of an opportunistic exchange of (sensor) data and money. 
+
+%\bibliographystyle{apalike}
+%\bibliography{datamarket}
+
+\printbibliography[notkeyword=planned]
+
+\clearpage
+
+\section{Schedule of the project}
+
+The following table illustrates the schedule of the project. Research that is not directly related to the project is not mentioned. However, it is important to note that all work that is not related to the project will be completed until 10.2015.
+\begin{figure}[H]
+\centerline{\includegraphics[trim=1.5cm 9cm 2cm 2.5cm,clip,scale=0.9]{Timeplan_DW.pdf}}
+\caption{MT = master thesis, BT = bachelor thesis, RA = research assistant}
+\end{figure}
+
+
+\section{Reason for the choice of research institution}
+
+MIT's recently founded Digital Currency Initiative is unique. It is a hub for experts from various academic fields, as well as developers, regulators and entrepreneurs. Alexander Pentland, my inviting professor, is part of this initiative and I'm in regular contact with one of his PhD students, Guy Zyskind. Prof. Pentland is also an advisor of the World Economic Forum's Rethinking Personal Data initiative. Furthermore, there has been a lot work around providing infrastructure to share data \parencite{Aharony:2011:SFI:2072697.2073099} in a controlled and privacy preserving manner in his Human Dynamics Group at the MIT Media Lab \parencite{deMontjoye:2014ip}.
+The most recent project in this line is the Enigma project\footnote{http://enigma.media.mit.edu/} which lends heavily from Bitcoin's underlying technologies and the digital currency itself to store and share data with guaranteed privacy. The vision thereby is also to build a data market. However the approach is somewhat complementary since the inherent computational and communication complexity of the approach is not well suited to the needs of a real-time data market for the Internet of Things. Nevertheless the approach is fascinating as it combines all kinds of clever tricks from cryptography, distributed computing and cryptocurrencies and I'm looking forward to collaborate on this project.  
+
+In addition, a former colleague of mine visited (also with support of a Doc Mobility scholarship) the group 3 years ago and was impressed by the working spirit. Furthermore, the stay was very successful in terms of joined publications.
+
+Finally, the Media Lab's motto \textit{deploy or die} (in contrast to publish or perish) is resonating very well with me and the research approach at our chair which results in ETH spin-offs on a regular basis.  
+
+\section{Relevance for personal career development}
+
+
+My expectation is that the stay at MIT will allow me to build up relationships within the broader Bitcoin and digital currency community. Furthermore, I'm very interested in entrepreneurship and the people I will be working with have already founded multiple companies. Moreover, Prof. Pentland is the head of the entrepreneurship program and is advising numerous start-up companies. Thus, it will help me to explore the possibilities of commercializing my research in form of an ETH spin-off company. 
+
+Not least, MIT, the Media Lab, and Prof Pentland, are all distinguished. Having been part of these institutions is relevant for personal career development on its own.
+
+
+%\begin{bibunit}
+\nocite{HubAndSpoke,ecis,bise,energy,datamarket}
+%\renewcommand{\refname}{Planned Publications}
+%\putbib[datamarket]
+%\end{bibunit}
+
+\printbibliography[title={Planned Publications},keyword=planned]
+
+
+
+
+
+\end{document}

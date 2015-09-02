@@ -1,0 +1,20 @@
+[0] Config.pm:387> INFO - This is Biber 1.6
+[1] Config.pm:390> INFO - Logfile is 'datamarket.blg'
+[121] biber-darwin:218> INFO - === Tue Sep  1, 2015, 09:01:19
+[121] Biber.pm:325> INFO - Reading 'datamarket.bcf'
+[245] Biber.pm:623> INFO - Found 35 citekeys in bib section 0
+[260] Biber.pm:2995> INFO - Processing section 0
+[281] Biber.pm:3129> INFO - Looking for bibtex format file 'datamarket.bib' for section 0
+[285] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[296] bibtex.pm:775> INFO - Found BibTeX data source 'datamarket.bib'
+[298] Utils.pm:169> WARN - Duplicate entry key: 'Perera:2014iz' in file 'datamarket.bib', skipping ...
+[301] Utils.pm:169> WARN - Duplicate entry key: '7065282' in file 'datamarket.bib', skipping ...
+[437] Utils.pm:169> WARN - The field 'note' in entry 'Miorandi2012' cannot be null, deleting it
+[441] Utils.pm:169> WARN - The field 'month' in entry '7055221' cannot be null, deleting it
+[441] Utils.pm:169> WARN - The field 'month' in entry '7065282' cannot be null, deleting it
+[851] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[851] Biber.pm:2887> INFO - Sorting 'entry' list 'nyt' keys
+[852] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1456] bbl.pm:472> INFO - Writing 'datamarket.bbl' with encoding 'UTF-8'
+[1465] bbl.pm:545> INFO - Output to datamarket.bbl
+[1466] Biber.pm:105> INFO - WARNINGS: 5

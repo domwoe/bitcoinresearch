@@ -1,0 +1,1022 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{Aharony:2011:SFI:2072697.2073099}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=ffc03c77a8fd56ba268abe4fa0e12b16}{Aharony}{A\bibinitperiod}{Nadav}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=188e0b0486b277245804f98bce4641f9}{Pan}{P\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=920838ebdf9ff89a0532cc4a2601b925}{Ip}{I\bibinitperiod}{Cory}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cffa8cb43969620299b765ffaecd98a7}{Khayal}{K\bibinitperiod}{Inas}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfeba84379500ca15113b46bf96d3c2a}{Pentland}{P\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=ffc03c77a8fd56ba268abe4fa0e12b16}{Aharony}{A\bibinitperiod}{Nadav}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=188e0b0486b277245804f98bce4641f9}{Pan}{P\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=920838ebdf9ff89a0532cc4a2601b925}{Ip}{I\bibinitperiod}{Cory}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cffa8cb43969620299b765ffaecd98a7}{Khayal}{K\bibinitperiod}{Inas}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfeba84379500ca15113b46bf96d3c2a}{Pentland}{P\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, The Netherlands, The Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science Publishers B. V.}%
+      }
+      \strng{namehash}{2aeb9f1f34821e0edcbc604484a037ce}
+      \strng{fullhash}{c4002a4420f2545dcda7b236d7a9e4ed}
+      \field{sortinit}{A}
+      \field{labelyear}{2011}
+      \field{labelmonth}{12}
+      \field{labeltitle}{Social fMRI: Investigating and Shaping Social Mechanisms in the Real World}
+      \field{issn}{1574-1192}
+      \field{journaltitle}{Pervasive Mob. Comput.}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Social fMRI: Investigating and Shaping Social Mechanisms in the Real World}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{643\bibrangedash 659}
+      \verb{doi}
+      \verb 10.1016/j.pmcj.2011.09.004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.pmcj.2011.09.004
+      \endverb
+      \keyw{Mobile health, Mobile sensing, Rich data, Social computing, Social health}
+    \endentry
+    \entry{anderson2013makers}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=23346c878d4afcc84c10b87ab0098261}{Anderson}{A\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=23346c878d4afcc84c10b87ab0098261}{Anderson}{A\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wereldbibliotheek}%
+      }
+      \strng{namehash}{23346c878d4afcc84c10b87ab0098261}
+      \strng{fullhash}{23346c878d4afcc84c10b87ab0098261}
+      \field{sortinit}{A}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Makers}
+      \field{title}{Makers}
+      \field{year}{2013}
+    \endentry
+    \entry{Armbrust:2010:VCC:1721654.1721672}{article}{}
+      \name{labelname}{11}{}{%
+        {{uniquename=0,hash=8eafad8289b06f72c2e8b7caf80a413a}{Armbrust}{A\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3c5b94cecebf3f40a6ad1bfde24c6dd5}{Fox}{F\bibinitperiod}{Armando}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0687da4465846445b36b7800c1bb8038}{Griffith}{G\bibinitperiod}{Rean}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=920606d5e2681cf016e53575a5648f46}{Joseph}{J\bibinitperiod}{Anthony\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=97c841afbd6b1980e626582e11cd5c08}{Katz}{K\bibinitperiod}{Randy}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a146737a08c92a0e901d58d45cdca770}{Konwinski}{K\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be4e9543923533735a6b6ab0d3071b46}{Lee}{L\bibinitperiod}{Gunho}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64f58317379ddd1a24e0e6cba85ae78c}{Patterson}{P\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4fb6cc742d611dd7706e52380e50cd4d}{Rabkin}{R\bibinitperiod}{Ariel}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=51d9ef26181e2e8a9dc546b401e0bb26}{Stoica}{S\bibinitperiod}{Ion}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=00dc518b94dfa6349c86e70661a1a5ef}{Zaharia}{Z\bibinitperiod}{Matei}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{uniquename=0,hash=8eafad8289b06f72c2e8b7caf80a413a}{Armbrust}{A\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3c5b94cecebf3f40a6ad1bfde24c6dd5}{Fox}{F\bibinitperiod}{Armando}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0687da4465846445b36b7800c1bb8038}{Griffith}{G\bibinitperiod}{Rean}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=920606d5e2681cf016e53575a5648f46}{Joseph}{J\bibinitperiod}{Anthony\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=97c841afbd6b1980e626582e11cd5c08}{Katz}{K\bibinitperiod}{Randy}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a146737a08c92a0e901d58d45cdca770}{Konwinski}{K\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be4e9543923533735a6b6ab0d3071b46}{Lee}{L\bibinitperiod}{Gunho}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64f58317379ddd1a24e0e6cba85ae78c}{Patterson}{P\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4fb6cc742d611dd7706e52380e50cd4d}{Rabkin}{R\bibinitperiod}{Ariel}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=51d9ef26181e2e8a9dc546b401e0bb26}{Stoica}{S\bibinitperiod}{Ion}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=00dc518b94dfa6349c86e70661a1a5ef}{Zaharia}{Z\bibinitperiod}{Matei}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
+      \strng{fullhash}{260e0f3d03e523decd1716ee29faf71b}
+      \field{sortinit}{A}
+      \field{labelyear}{2010}
+      \field{labelmonth}{04}
+      \field{labeltitle}{A View of Cloud Computing}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{A View of Cloud Computing}
+      \field{volume}{53}
+      \field{year}{2010}
+      \field{pages}{50\bibrangedash 58}
+      \verb{doi}
+      \verb 10.1145/1721654.1721672
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1721654.1721672
+      \endverb
+    \endentry
+    \entry{ashton2009internet}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=2710e37a7e37dd6f0a784ffd7e37e589}{Ashton}{A\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2710e37a7e37dd6f0a784ffd7e37e589}{Ashton}{A\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2710e37a7e37dd6f0a784ffd7e37e589}
+      \strng{fullhash}{2710e37a7e37dd6f0a784ffd7e37e589}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{labeltitle}{That ‘internet of things’ thing}
+      \field{journaltitle}{RFiD Journal}
+      \field{number}{7}
+      \field{title}{That ‘internet of things’ thing}
+      \field{volume}{22}
+      \field{year}{2009}
+      \field{pages}{97\bibrangedash 114}
+    \endentry
+    \entry{10.1109/MC.2011.67}{article}{}
+      \name{labelname}{9}{}{%
+        {{uniquename=0,hash=256683c23076fa0eea42eff05f873641}{Banerjee}{B\bibinitperiod}{Prith}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0a91f73f02671d3646f8be8aab98de4a}{Friedrich}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e0496c599a91c43aa358826759ea1026}{Bash}{B\bibinitperiod}{Cullen}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6a8bf60114f48e95e18f5d38db94afcf}{Goldsack}{G\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7b211b3d153a091957b0c3e60c5148c4}{Huberman}{H\bibinitperiod}{Bernardo}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6050a0b13588f830d2f01f72d15a2df}{Manley}{M\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=407a9fca7a78cf0171e5cfa9c8b0acc3}{Patel}{P\bibinitperiod}{Chandrakant}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d86fc34f3ab2eed537ffd62d45ef9244}{Ranganathan}{R\bibinitperiod}{Parthasarathy}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a7012592afeb3e514d3d9f956f40ead6}{Veitch}{V\bibinitperiod}{Alistair}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=256683c23076fa0eea42eff05f873641}{Banerjee}{B\bibinitperiod}{Prith}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0a91f73f02671d3646f8be8aab98de4a}{Friedrich}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e0496c599a91c43aa358826759ea1026}{Bash}{B\bibinitperiod}{Cullen}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6a8bf60114f48e95e18f5d38db94afcf}{Goldsack}{G\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7b211b3d153a091957b0c3e60c5148c4}{Huberman}{H\bibinitperiod}{Bernardo}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6050a0b13588f830d2f01f72d15a2df}{Manley}{M\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=407a9fca7a78cf0171e5cfa9c8b0acc3}{Patel}{P\bibinitperiod}{Chandrakant}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d86fc34f3ab2eed537ffd62d45ef9244}{Ranganathan}{R\bibinitperiod}{Parthasarathy}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a7012592afeb3e514d3d9f956f40ead6}{Veitch}{V\bibinitperiod}{Alistair}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{25c6c16eb97a251032279fb194ecc872}
+      \strng{fullhash}{6b5cb4330e4fd38240e60f0a90afa6ba}
+      \field{sortinit}{B}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Everything as a Service: Powering the New Information Economy}
+      \field{issn}{0018-9162}
+      \field{journaltitle}{Computer}
+      \field{number}{3}
+      \field{title}{Everything as a Service: Powering the New Information Economy}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{36\bibrangedash 43}
+      \verb{doi}
+      \verb http://doi.ieeecomputersociety.org/10.1109/MC.2011.67
+      \endverb
+    \endentry
+    \entry{Bohli:2009:IOE:1517480.1517491}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=9f5c99b6e5aca9a11ebd4d33a1d4c217}{Bohli}{B\bibinitperiod}{Jens-Matthias}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1a9bfd19f102edc4187a7b9c9aee5860}{Sorge}{S\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e1a3f1341789e910355b65544b250b4}{Westhoff}{W\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9f5c99b6e5aca9a11ebd4d33a1d4c217}{Bohli}{B\bibinitperiod}{Jens-Matthias}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1a9bfd19f102edc4187a7b9c9aee5860}{Sorge}{S\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e1a3f1341789e910355b65544b250b4}{Westhoff}{W\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{25e1297e9ed9bd820d1515ef18ce7c17}
+      \strng{fullhash}{a92fbeda8694f199ffe510596f725062}
+      \field{sortinit}{B}
+      \field{labelyear}{2009}
+      \field{labelmonth}{03}
+      \field{labeltitle}{Initial Observations on Economics, Pricing, and Penetration of the Internet of Things Market}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{03}
+      \field{number}{2}
+      \field{title}{Initial Observations on Economics, Pricing, and Penetration of the Internet of Things Market}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{pages}{50\bibrangedash 55}
+      \verb{doi}
+      \verb 10.1145/1517480.1517491
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1517480.1517491
+      \endverb
+      \keyw{internet of things, market, pricing, sensor networks}
+    \endentry
+    \entry{energy}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e1c20c19ba288acaac88581ee693f16e}
+      \strng{fullhash}{eb04b5760396386fec24f380cbf8cf00}
+      \field{sortinit}{B}
+      \field{labelyear}{2016}
+      \field{labeltitle}{Usage of a smart single-room heating system: Evidence from a Fieldstudy in {S}witzerland}
+      \field{journaltitle}{Energy and Buildings}
+      \field{title}{Usage of a smart single-room heating system: Evidence from a Fieldstudy in {S}witzerland}
+      \field{year}{2016}
+      \keyw{planned}
+    \endentry
+    \entry{HubAndSpoke}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=5db849a0ed955a06762dd5820084c572}{Bungiu}{B\bibinitperiod}{Francisc}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=606da205069239a342783a6ff7f69711}{Decker}{D\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=5db849a0ed955a06762dd5820084c572}{Bungiu}{B\bibinitperiod}{Francisc}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=606da205069239a342783a6ff7f69711}{Decker}{D\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{92e7db85245ea2a2b0956dfa26d28cb9}
+      \strng{fullhash}{6e1da0cf4abe2dac79b0e7ee64b4e578}
+      \field{sortinit}{B}
+      \field{labelyear}{2016}
+      \field{labeltitle}{Hub and Spoke Nanopayments with Bitcoin: The Case of Mobile Sensing}
+      \field{booktitle}{Conference contribution}
+      \field{title}{Hub and Spoke Nanopayments with Bitcoin: The Case of Mobile Sensing}
+      \field{year}{2016}
+      \keyw{planned}
+    \endentry
+    \entry{burke2006participatory}{article}{}
+      \name{labelname}{7}{}{%
+        {{uniquename=0,hash=ccd7475682ed4fd960034ffb46e54433}{Burke}{B\bibinitperiod}{Jeffrey\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=222e100454bced2fd8e9e786fce92f41}{Estrin}{E\bibinitperiod}{Deborah}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=23b3bc585b63302674d0d6211c72bca7}{Hansen}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1b5337f7fa554cb7e1b21926d88256e}{Parker}{P\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1e03783ab23796b124035986b0f40f0}{Ramanathan}{R\bibinitperiod}{Nithya}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=042f23ec04372775575d241c5f56a695}{Reddy}{R\bibinitperiod}{Sasank}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=15b6f91bc3d9797c78c466659b173cda}{Srivastava}{S\bibinitperiod}{Mani\bibnamedelima B}{M\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=ccd7475682ed4fd960034ffb46e54433}{Burke}{B\bibinitperiod}{Jeffrey\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=222e100454bced2fd8e9e786fce92f41}{Estrin}{E\bibinitperiod}{Deborah}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=23b3bc585b63302674d0d6211c72bca7}{Hansen}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1b5337f7fa554cb7e1b21926d88256e}{Parker}{P\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1e03783ab23796b124035986b0f40f0}{Ramanathan}{R\bibinitperiod}{Nithya}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=042f23ec04372775575d241c5f56a695}{Reddy}{R\bibinitperiod}{Sasank}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=15b6f91bc3d9797c78c466659b173cda}{Srivastava}{S\bibinitperiod}{Mani\bibnamedelima B}{M\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3b1cedb53077b60e6ea306f79225c3dc}
+      \strng{fullhash}{1cfd08213ed88244104a0d04ad0c8127}
+      \field{sortinit}{B}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Participatory sensing}
+      \field{journaltitle}{Center for Embedded Network Sensing}
+      \field{title}{Participatory sensing}
+      \field{year}{2006}
+    \endentry
+    \entry{decker2015Duplex}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=606da205069239a342783a6ff7f69711}{Decker}{D\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c162b9d03517a96680df0dc8d8263eb}{Wattenhofer}{W\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=606da205069239a342783a6ff7f69711}{Decker}{D\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c162b9d03517a96680df0dc8d8263eb}{Wattenhofer}{W\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=bb3711a6a082dd40db50470e6a5d26be}{Pelc}{P\bibinitperiod}{Andrzej}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=4af429d045e9940b193eee082504ac45}{Schwarzmann}{S\bibinitperiod}{Alexander\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{a4c41072ff4ff40a89fa94150de406f8}
+      \strng{fullhash}{a4c41072ff4ff40a89fa94150de406f8}
+      \field{sortinit}{D}
+      \field{labelyear}{2015}
+      \field{labeltitle}{A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels}
+      \field{booktitle}{Stabilization, Safety, and Security of Distributed Systems}
+      \field{isbn}{978-3-319-21740-6}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels}
+      \field{volume}{9212}
+      \field{year}{2015}
+      \field{pages}{3\bibrangedash 18}
+      \verb{doi}
+      \verb 10.1007/978-3-319-21741-3_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-319-21741-3_1
+      \endverb
+    \endentry
+    \entry{Distefano:2015ir}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=090f06a86c3e0f1dece74216e960a627}{Distefano}{D\bibinitperiod}{Salvatore}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bb9db39a3f4c42c570d0b7f03e812499}{Merlino}{M\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=484f442bff317a64b3864cc189009cc5}{Puliafito}{P\bibinitperiod}{Antonio}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=090f06a86c3e0f1dece74216e960a627}{Distefano}{D\bibinitperiod}{Salvatore}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bb9db39a3f4c42c570d0b7f03e812499}{Merlino}{M\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=484f442bff317a64b3864cc189009cc5}{Puliafito}{P\bibinitperiod}{Antonio}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c36d311ef94b5fabb00ed85541ada89}
+      \strng{fullhash}{eafc2160c910b779818a4386bcaaa0a2}
+      \field{sortinit}{D}
+      \field{labelyear}{2015}
+      \field{labelmonth}{05}
+      \field{labeltitle}{{A framework for device-centric sensing cloud}}
+      \field{journaltitle}{International Journal of Cloud Computing}
+      \field{month}{05}
+      \field{title}{{A framework for device-centric sensing cloud}}
+      \field{year}{2015}
+    \endentry
+    \entry{douceur2002sybil}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=df479cf40aaecc44fb526ec94014cf32}{Douceur}{D\bibinitperiod}{John\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=df479cf40aaecc44fb526ec94014cf32}{Douceur}{D\bibinitperiod}{John\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{df479cf40aaecc44fb526ec94014cf32}
+      \strng{fullhash}{df479cf40aaecc44fb526ec94014cf32}
+      \field{sortinit}{D}
+      \field{labelyear}{2002}
+      \field{labeltitle}{The sybil attack}
+      \field{booktitle}{Peer-to-peer Systems}
+      \field{title}{The sybil attack}
+      \field{year}{2002}
+      \field{pages}{251\bibrangedash 260}
+    \endentry
+    \entry{fleisch2014business}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac9992da1ebdbb2fda5aff51ecfa7436}{Weinberger}{W\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac9992da1ebdbb2fda5aff51ecfa7436}{Weinberger}{W\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c1e4010cf2f464cc7c58df9bf41c328d}
+      \strng{fullhash}{e0d1dff7d959f8380bbd7cfbf2022385}
+      \field{sortinit}{F}
+      \field{labelyear}{2014}
+      \field{labeltitle}{Business Models and the Internet of Things}
+      \field{journaltitle}{Whitepaper of the Bosch Internet of Things and Services Lab, a Cooperation of HSG and Bosch}
+      \field{title}{Business Models and the Internet of Things}
+      \field{year}{2014}
+    \endentry
+    \entry{6069707}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=72e41d6a99e454460bd65abd80112a2b}{Ganti}{G\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c11bd128b690cf48da17ef8779fc89dd}{Ye}{Y\bibinitperiod}{Fan}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27c0b40dd93a1b0fdd6cbaeb52873c6c}{Lei}{L\bibinitperiod}{Hui}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=72e41d6a99e454460bd65abd80112a2b}{Ganti}{G\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c11bd128b690cf48da17ef8779fc89dd}{Ye}{Y\bibinitperiod}{Fan}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27c0b40dd93a1b0fdd6cbaeb52873c6c}{Lei}{L\bibinitperiod}{Hui}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cb74c38c78a6a90100f660d80f941957}
+      \strng{fullhash}{461584dbd169675703ab188a2b6f5419}
+      \field{sortinit}{G}
+      \field{labelyear}{2011}
+      \field{labelmonth}{11}
+      \field{labeltitle}{Mobile crowdsensing: current state and future challenges}
+      \field{issn}{0163-6804}
+      \field{journaltitle}{Communications Magazine, IEEE}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Mobile crowdsensing: current state and future challenges}
+      \field{volume}{49}
+      \field{year}{2011}
+      \field{pages}{32\bibrangedash 39}
+      \verb{doi}
+      \verb 10.1109/MCOM.2011.6069707
+      \endverb
+      \keyw{Internet;mobile computing;Internet of Things;computing devices;consumer-centric mobile sensing;in-vehicle sensors;mobile crowdsensing;music players;smart phones;Global Positioning System;Mobile communication;Mobile handsets;Pollution measurement;Sensors;Smart phones;Social factors}
+    \endentry
+    \entry{Hevner:2004:DSI:2017212.2017217}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=760449648386e41af6806ff3579eedd9}{Hevner}{H\bibinitperiod}{Alan\bibnamedelima R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=56c2fccf54d0fc1cad09cc75008e96a0}{March}{M\bibinitperiod}{Salvatore\bibnamedelima T.}{S\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c518c214dc9e77148493e9ea47f505ab}{Park}{P\bibinitperiod}{Jinsoo}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=65565df90d4793da7a2f20e5e1b07345}{Ram}{R\bibinitperiod}{Sudha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=760449648386e41af6806ff3579eedd9}{Hevner}{H\bibinitperiod}{Alan\bibnamedelima R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=56c2fccf54d0fc1cad09cc75008e96a0}{March}{M\bibinitperiod}{Salvatore\bibnamedelima T.}{S\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c518c214dc9e77148493e9ea47f505ab}{Park}{P\bibinitperiod}{Jinsoo}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=65565df90d4793da7a2f20e5e1b07345}{Ram}{R\bibinitperiod}{Sudha}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN, USA}%
+      }
+      \list{publisher}{2}{%
+        {Society for Information Management}%
+        {The Management Information Systems Research Center}%
+      }
+      \strng{namehash}{4007314350ed913efa904a8899a73a9e}
+      \strng{fullhash}{f3c2f053e94654c1d2def606a673c9a7}
+      \field{sortinit}{H}
+      \field{labelyear}{2004}
+      \field{labelmonth}{03}
+      \field{labeltitle}{Design Science in Information Systems Research}
+      \field{issn}{0276-7783}
+      \field{journaltitle}{MIS Q.}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{Design Science in Information Systems Research}
+      \field{volume}{28}
+      \field{year}{2004}
+      \field{pages}{75\bibrangedash 105}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2017212.2017217
+      \endverb
+      \keyw{business environment, creativity, design artifact, design science, experimental methods, information systems research methodologies, search strategies, technology infrastructure}
+    \endentry
+    \entry{7055221}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=32b93199ce06d80bda4f050c4616ea8e}{Jaimes}{J\bibinitperiod}{L.G.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f53ad923e4414b74e49fa8215746ce92}{Vergara-Laurens}{V\bibinithyphendelim L\bibinitperiod}{I.J.}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7b4caf7cafda94a4506b471caeb761f2}{Raij}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=32b93199ce06d80bda4f050c4616ea8e}{Jaimes}{J\bibinitperiod}{L.G.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f53ad923e4414b74e49fa8215746ce92}{Vergara-Laurens}{V\bibinithyphendelim L\bibinitperiod}{I.J.}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7b4caf7cafda94a4506b471caeb761f2}{Raij}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7910cae81e357a5208f8c361314600d7}
+      \strng{fullhash}{a01198b1c36b6ab5663605bb2749e777}
+      \field{sortinit}{J}
+      \field{labelyear}{2015}
+      \field{labeltitle}{A Survey on Incentive Techniques for Mobile Crowd Sensing}
+      \field{issn}{2327-4662}
+      \field{journaltitle}{Internet of Things Journal, IEEE}
+      \field{number}{99}
+      \field{title}{A Survey on Incentive Techniques for Mobile Crowd Sensing}
+      \field{volume}{PP}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 1}
+      \verb{doi}
+      \verb 10.1109/JIOT.2015.2409151
+      \endverb
+      \keyw{Heuristic algorithms;Incentive schemes;Internet of things;Recruitment;Taxonomy;Temperature sensors;Crowd Sensing;Games;Incentives;Reverse Auction}
+    \endentry
+    \entry{Lamport:1982:BGP:357172.357176}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=88bd932c15c4ae7b0f7652a409325659}{Shostak}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=87523aad6a4881d07c4c00ef21114da5}{Pease}{P\bibinitperiod}{Marshall}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=88bd932c15c4ae7b0f7652a409325659}{Shostak}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=87523aad6a4881d07c4c00ef21114da5}{Pease}{P\bibinitperiod}{Marshall}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0703c25783b9b45b0fdc5cf5765a34af}
+      \strng{fullhash}{413430fb3846d7facccddaff1effdd66}
+      \field{sortinit}{L}
+      \field{labelyear}{1982}
+      \field{labelmonth}{07}
+      \field{labeltitle}{The Byzantine Generals Problem}
+      \field{issn}{0164-0925}
+      \field{journaltitle}{ACM Trans. Program. Lang. Syst.}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{The Byzantine Generals Problem}
+      \field{volume}{4}
+      \field{year}{1982}
+      \field{pages}{382\bibrangedash 401}
+      \verb{doi}
+      \verb 10.1145/357172.357176
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/357172.357176
+      \endverb
+    \endentry
+    \entry{Miorandi2012}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=659e18d34186f9b9c53d72f16e07435e}{Miorandi}{M\bibinitperiod}{Daniele}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0171d802b9d76a1a0b5a27298d304fa9}{Sicari}{S\bibinitperiod}{Sabrina}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f249d5069e4fd4731fe200393d03d649}{Pellegrini}{P\bibinitperiod}{Francesco\bibnamedelima De}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d27663ff3d1d36fb9a1965595656e6b}{Chlamtac}{C\bibinitperiod}{Imrich}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=659e18d34186f9b9c53d72f16e07435e}{Miorandi}{M\bibinitperiod}{Daniele}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0171d802b9d76a1a0b5a27298d304fa9}{Sicari}{S\bibinitperiod}{Sabrina}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f249d5069e4fd4731fe200393d03d649}{Pellegrini}{P\bibinitperiod}{Francesco\bibnamedelima De}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d27663ff3d1d36fb9a1965595656e6b}{Chlamtac}{C\bibinitperiod}{Imrich}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b7aa8435fab0e10fde2522752fa66ef3}
+      \strng{fullhash}{a22f286c55e306d472a886be1b3d58c1}
+      \field{sortinit}{M}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Internet of things: Vision, applications and research challenges}
+      \field{issn}{1570-8705}
+      \field{journaltitle}{Ad Hoc Networks}
+      \field{number}{7}
+      \field{title}{Internet of things: Vision, applications and research challenges}
+      \field{volume}{10}
+      \field{year}{2012}
+      \field{pages}{1497\bibrangedash 1516}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.adhoc.2012.02.016
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1570870512000674
+      \endverb
+      \keyw{Security}
+    \endentry
+    \entry{deMontjoye:2014ip}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=4e5276a09e5b94bbc6b688c6507bf1ad}{Montjoye}{M\bibinitperiod}{Yves-Alexandre}{Y\bibinithyphendelim A\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=85b1412798ce5a7ef782f040faf8203a}{Shmueli}{S\bibinitperiod}{Erez}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f3cd55bb60f08f10a52f5bdde68457c3}{Wang}{W\bibinitperiod}{Samuel\bibnamedelima S}{S\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3cb09f002e2d6b0a303ebb5c2d9a31c2}{Pentland}{P\bibinitperiod}{Alex\bibnamedelima Sandy}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=4e5276a09e5b94bbc6b688c6507bf1ad}{Montjoye}{M\bibinitperiod}{Yves-Alexandre}{Y\bibinithyphendelim A\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=85b1412798ce5a7ef782f040faf8203a}{Shmueli}{S\bibinitperiod}{Erez}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f3cd55bb60f08f10a52f5bdde68457c3}{Wang}{W\bibinitperiod}{Samuel\bibnamedelima S}{S\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3cb09f002e2d6b0a303ebb5c2d9a31c2}{Pentland}{P\bibinitperiod}{Alex\bibnamedelima Sandy}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{22ebf9dff17f3b582cb25aa533bb394b}
+      \strng{fullhash}{96c1624a6739edf1ad7386850738c2e6}
+      \field{sortinit}{M}
+      \field{labelyear}{2014}
+      \field{labelmonth}{09}
+      \field{labeltitle}{{openPDS: Protecting the Privacy of Metadata through SafeAnswers}}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{09}
+      \field{number}{7}
+      \field{title}{{openPDS: Protecting the Privacy of Metadata through SafeAnswers}}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{pages}{e98790}
+    \endentry
+    \entry{nakamoto2008bitcoin}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{N}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{year}{2008}
+      \field{pages}{28}
+    \endentry
+    \entry{DBLP:journals/corr/NoyenVWF14}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=784d5b40e8ccdeef11a0bd655b778655}{Noyen}{N\bibinitperiod}{Kay}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1df5b70a092b2e22f7103e96f533a3c6}{Volland}{V\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=784d5b40e8ccdeef11a0bd655b778655}{Noyen}{N\bibinitperiod}{Kay}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1df5b70a092b2e22f7103e96f533a3c6}{Volland}{V\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a1427585c23c8669d4db539cc82f707f}
+      \strng{fullhash}{ea13c31b457bffca3e9281f9dc6ccb1c}
+      \field{sortinit}{N}
+      \field{labelyear}{2014}
+      \field{labeltitle}{When Money Learns to Fly: Towards Sensing as a Service Applications Using Bitcoin}
+      \field{journaltitle}{CoRR}
+      \field{title}{When Money Learns to Fly: Towards Sensing as a Service Applications Using Bitcoin}
+      \field{volume}{abs/1409.5841}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://arxiv.org/abs/1409.5841
+      \endverb
+    \endentry
+    \entry{Peffers:2007:DSR:1481765.1481768}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=3127efe8cdd4557b7228a8724f568529}{Peffers}{P\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8b17b21a3e4c61d1302f46cba38c6e50}{Tuunanen}{T\bibinitperiod}{Tuure}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a4791738f4bdec6d6798801bd8681cab}{Rothenberger}{R\bibinitperiod}{Marcus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=edf3e165ce4429b30d49e353a7d1417a}{Chatterjee}{C\bibinitperiod}{Samir}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=3127efe8cdd4557b7228a8724f568529}{Peffers}{P\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8b17b21a3e4c61d1302f46cba38c6e50}{Tuunanen}{T\bibinitperiod}{Tuure}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a4791738f4bdec6d6798801bd8681cab}{Rothenberger}{R\bibinitperiod}{Marcus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=edf3e165ce4429b30d49e353a7d1417a}{Chatterjee}{C\bibinitperiod}{Samir}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Armonk, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {M. E. Sharpe, Inc.}%
+      }
+      \strng{namehash}{4ccaed1d47a4875e5f027cdf2d20bbca}
+      \strng{fullhash}{36a1c829a1221884018769627afd7538}
+      \field{sortinit}{P}
+      \field{labelyear}{2007}
+      \field{labelmonth}{12}
+      \field{labeltitle}{A Design Science Research Methodology for Information Systems Research}
+      \field{issn}{0742-1222}
+      \field{journaltitle}{J. Manage. Inf. Syst.}
+      \field{month}{12}
+      \field{number}{3}
+      \field{title}{A Design Science Research Methodology for Information Systems Research}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{45\bibrangedash 77}
+      \verb{doi}
+      \verb 10.2753/MIS0742-1222240302
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.2753/MIS0742-1222240302
+      \endverb
+      \keyw{Case Study, Design Science, Design Science Research, Design Theory, Mental Model, Methodology, Process Model}
+    \endentry
+    \entry{Perera:2014iz}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=e5b420aba58a8d93cbbcaf2b1b0f4dab}{Perera}{P\bibinitperiod}{Charith}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b6dfb051d46cf8f0075bd0694594635}{Zaslavsky}{Z\bibinitperiod}{Arkady\bibnamedelima B}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2df88d211fd24d931ebe3bf0dd661f93}{Christen}{C\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=25d9d97c240056793c5abcc6aee6a4d0}{Georgakopoulos}{G\bibinitperiod}{Dimitrios}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=e5b420aba58a8d93cbbcaf2b1b0f4dab}{Perera}{P\bibinitperiod}{Charith}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b6dfb051d46cf8f0075bd0694594635}{Zaslavsky}{Z\bibinitperiod}{Arkady\bibnamedelima B}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2df88d211fd24d931ebe3bf0dd661f93}{Christen}{C\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=25d9d97c240056793c5abcc6aee6a4d0}{Georgakopoulos}{G\bibinitperiod}{Dimitrios}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3a7a2ea57f7c4872eb630a5e4ed238a4}
+      \strng{fullhash}{bb2a9567fcfe75051d4e266a4f4831d6}
+      \field{sortinit}{P}
+      \field{labelyear}{2014}
+      \field{labeltitle}{{Sensing as a service model for smart cities supported by Internet of Things.}}
+      \field{journaltitle}{Trans. Emerging Telecommunications Technologies ()}
+      \field{number}{1}
+      \field{title}{{Sensing as a service model for smart cities supported by Internet of Things.}}
+      \field{volume}{25}
+      \field{year}{2014}
+      \field{pages}{81\bibrangedash 93}
+    \endentry
+    \entry{poonbitcoin}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=810a1119de65fee46a025e89e00509b0}{Poon}{P\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a7a37ddb1296a855b368670ac83a551}{Dryja}{D\bibinitperiod}{Thaddeus}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=810a1119de65fee46a025e89e00509b0}{Poon}{P\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a7a37ddb1296a855b368670ac83a551}{Dryja}{D\bibinitperiod}{Thaddeus}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{02157f4e7f286af5c370f029888cd383}
+      \strng{fullhash}{02157f4e7f286af5c370f029888cd383}
+      \field{sortinit}{P}
+      \field{labelyear}{nodate}
+      \field{labeltitle}{The Bitcoin Lightning Network}
+      \field{title}{The Bitcoin Lightning Network}
+    \endentry
+    \entry{schomm2013marketplaces}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=12b047cd9b5be2a6d3c4f1260e481b13}{Schomm}{S\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c826849f33ae54e7a33fd1d0d4bc0de2}{Stahl}{S\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3e4e91db668d7305b2e025762536573c}{Vossen}{V\bibinitperiod}{Gottfried}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=12b047cd9b5be2a6d3c4f1260e481b13}{Schomm}{S\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c826849f33ae54e7a33fd1d0d4bc0de2}{Stahl}{S\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3e4e91db668d7305b2e025762536573c}{Vossen}{V\bibinitperiod}{Gottfried}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2e6277b32a93aa993fb2327ca156c861}
+      \strng{fullhash}{c66bdd4d001fb6af1571b002f6ff4c6b}
+      \field{sortinit}{S}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Marketplaces for data: An initial survey}
+      \field{journaltitle}{ACM SIGMOD Record}
+      \field{number}{1}
+      \field{title}{Marketplaces for data: An initial survey}
+      \field{volume}{42}
+      \field{year}{2013}
+      \field{pages}{15\bibrangedash 26}
+    \endentry
+    \entry{stahl2014data}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=c826849f33ae54e7a33fd1d0d4bc0de2}{Stahl}{S\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=12b047cd9b5be2a6d3c4f1260e481b13}{Schomm}{S\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3e4e91db668d7305b2e025762536573c}{Vossen}{V\bibinitperiod}{Gottfried}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c826849f33ae54e7a33fd1d0d4bc0de2}{Stahl}{S\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=12b047cd9b5be2a6d3c4f1260e481b13}{Schomm}{S\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3e4e91db668d7305b2e025762536573c}{Vossen}{V\bibinitperiod}{Gottfried}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{69ff071cba24613a8b0f31eeebfc509d}
+      \strng{fullhash}{a8c98936a8ef82fc396365290fe9b80c}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{labeltitle}{Data Marketplaces: An Emerging Species}
+      \field{booktitle}{Databases and Information Systems VIII: Selected Papers from the Eleventh International Baltic Conference, DB\&IS 2014}
+      \field{title}{Data Marketplaces: An Emerging Species}
+      \field{volume}{270}
+      \field{year}{2014}
+      \field{pages}{145}
+    \endentry
+    \entry{Staiano:2014jm}{book}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=2cc92850943b3ab7a75c5b9a81ca3db5}{Staiano}{S\bibinitperiod}{Jacopo}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6befa50d1bad159fffc14e56262c94b2}{Oliver}{O\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e6962b70753f9699bc06c6b1993dec0d}{Lepri}{L\bibinitperiod}{Bruno}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=17550bf30850154f1c5b2bdb8c2fca38}{Oliveira}{O\bibinitperiod}{Rodrigo}{R\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=4f429f7c9271a5b2258e7e4bc2a49c03}{Caraviello}{C\bibinitperiod}{Michele}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da5596827b4ee2721d6b0cc1010c9fa4}{Sebe}{S\bibinitperiod}{Nicu}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=2cc92850943b3ab7a75c5b9a81ca3db5}{Staiano}{S\bibinitperiod}{Jacopo}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6befa50d1bad159fffc14e56262c94b2}{Oliver}{O\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e6962b70753f9699bc06c6b1993dec0d}{Lepri}{L\bibinitperiod}{Bruno}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=17550bf30850154f1c5b2bdb8c2fca38}{Oliveira}{O\bibinitperiod}{Rodrigo}{R\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=4f429f7c9271a5b2258e7e4bc2a49c03}{Caraviello}{C\bibinitperiod}{Michele}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da5596827b4ee2721d6b0cc1010c9fa4}{Sebe}{S\bibinitperiod}{Nicu}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{5eb5a996f1b3bb98dc2d8282010c21ce}
+      \strng{fullhash}{1714c41c5df36990de747c271cb947cb}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{labelmonth}{09}
+      \field{labeltitle}{{Money walks: a human-centric study on the economics of personal mobile data}}
+      \field{month}{09}
+      \field{series}{a human-centric study on the economics of personal mobile data}
+      \field{title}{{Money walks: a human-centric study on the economics of personal mobile data}}
+      \field{year}{2014}
+    \endentry
+    \entry{weiser1991computer}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=9a4cd1345f5dc5a1be20fa1032d65d9f}{Weiser}{W\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9a4cd1345f5dc5a1be20fa1032d65d9f}{Weiser}{W\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9a4cd1345f5dc5a1be20fa1032d65d9f}
+      \strng{fullhash}{9a4cd1345f5dc5a1be20fa1032d65d9f}
+      \field{sortinit}{W}
+      \field{labelyear}{1991}
+      \field{labeltitle}{The computer for the 21st century}
+      \field{journaltitle}{Scientific american}
+      \field{number}{3}
+      \field{title}{The computer for the 21st century}
+      \field{volume}{265}
+      \field{year}{1991}
+      \field{pages}{94\bibrangedash 104}
+    \endentry
+    \entry{Worner:2014:YSE:2638728.2638786}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \list{location}{1}{%
+        {Seattle, Washington}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a500e2a7d363f6d40d0880eef025aecd}
+      \strng{fullhash}{a500e2a7d363f6d40d0880eef025aecd}
+      \field{sortinit}{W}
+      \field{labelyear}{2014}
+      \field{labeltitle}{When Your Sensor Earns Money: Exchanging Data for Cash with Bitcoin}
+      \field{booktitle}{Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct Publication}
+      \field{isbn}{978-1-4503-3047-3}
+      \field{series}{UbiComp '14 Adjunct}
+      \field{title}{When Your Sensor Earns Money: Exchanging Data for Cash with Bitcoin}
+      \field{year}{2014}
+      \field{pages}{295\bibrangedash 298}
+      \verb{doi}
+      \verb 10.1145/2638728.2638786
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2638728.2638786
+      \endverb
+      \keyw{Bitcoin, data market, sensors}
+    \endentry
+    \entry{ecis}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c70a6363daf287e61b51bbe8776f25cf}{Bomhard}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8065f2cdb22b45ebe1570269e485c133}
+      \strng{fullhash}{6d880d3edbc71b445d1bf6f80cbe3f04}
+      \field{sortinit}{W}
+      \field{extrayear}{1}
+      \field{labelyear}{2016}
+      \field{labeltitle}{The Impact of Digital Currencies on Digital Business Models}
+      \field{booktitle}{Conference contribution (ECIS)}
+      \field{title}{The Impact of Digital Currencies on Digital Business Models}
+      \field{year}{2016}
+      \keyw{planned}
+    \endentry
+    \entry{bise}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd9a8756e8a15d6611917de492d210dc}{Wortmann}{W\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ff12cdaf850f6caa76bd0f93527b020}
+      \strng{fullhash}{1ff12cdaf850f6caa76bd0f93527b020}
+      \field{sortinit}{W}
+      \field{labelyear}{2016}
+      \field{labeltitle}{Blockchain Technology: From Digital Currencies to Decentralized Autonomous Organizations}
+      \field{journaltitle}{Business \& Information Systems Engineering}
+      \field{title}{Blockchain Technology: From Digital Currencies to Decentralized Autonomous Organizations}
+      \field{year}{2016}
+      \keyw{planned}
+    \endentry
+    \entry{datamarket}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=09045f18623f61f85055d4732d038e85}{Pentland}{P\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=875f2abcc8bfe4eb0dd41d5f1e07665f}{Wörner}{W\bibinitperiod}{Dominic}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e54935551ada74d38599fc2a0ea49aa6}{Fleisch}{F\bibinitperiod}{Elgar}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=09045f18623f61f85055d4732d038e85}{Pentland}{P\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8065f2cdb22b45ebe1570269e485c133}
+      \strng{fullhash}{f1c4b7c4b9488c563a294f9311b0a6e3}
+      \field{sortinit}{W}
+      \field{extrayear}{2}
+      \field{labelyear}{2016}
+      \field{labeltitle}{Building blocks of a real-time data market for the Internet of Things}
+      \field{journaltitle}{IEEE Transactions on Emerging Topics in Computing Special Issue on Sensor Data Computing as a Service in Internet of Things}
+      \field{title}{Building blocks of a real-time data market for the Internet of Things}
+      \field{year}{2016}
+      \keyw{planned}
+    \endentry
+    \entry{7065282}{article}{}
+      \name{labelname}{7}{}{%
+        {{uniquename=0,hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d431c4f70c7840dc9558dbb683c93d3f}{Sun}{S\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29bdd03a757ee4168cad6d145c3f26ac}{Liu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=598ab54cea025e61bbc9e769c280d588}{Tang}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d2caf3b34f2e20ba8cb195735be87a2d}{Xing}{X\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=10a06f36d2b09c521f69c78ea4049b11}{Mao}{M\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d431c4f70c7840dc9558dbb683c93d3f}{Sun}{S\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29bdd03a757ee4168cad6d145c3f26ac}{Liu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=598ab54cea025e61bbc9e769c280d588}{Tang}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d2caf3b34f2e20ba8cb195735be87a2d}{Xing}{X\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=10a06f36d2b09c521f69c78ea4049b11}{Mao}{M\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ce20b9c736bc2f09a2f147ddc52357ee}
+      \strng{fullhash}{08545503601c156358396e16388be89e}
+      \field{sortinit}{Z}
+      \field{labelyear}{2015}
+      \field{labeltitle}{Incentives for Mobile Crowd Sensing: A Survey}
+      \field{issn}{1553-877X}
+      \field{journaltitle}{Communications Surveys Tutorials, IEEE}
+      \field{number}{99}
+      \field{title}{Incentives for Mobile Crowd Sensing: A Survey}
+      \field{volume}{PP}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 1}
+      \verb{doi}
+      \verb 10.1109/COMST.2015.2415528
+      \endverb
+      \keyw{GSM;Games;Global Positioning System;IEEE 802.11 Standards;Mobile communication;Sensors;Smart phones;Crowd Sensing;Incentive Mechanisms;Reverse Auction}
+    \endentry
+    \entry{zyskind2015enigma}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73d8999a1b8b2755b8155897fcf44b30}{Nathan}{N\bibinitperiod}{Oz}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfeba84379500ca15113b46bf96d3c2a}{Pentland}{P\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73d8999a1b8b2755b8155897fcf44b30}{Nathan}{N\bibinitperiod}{Oz}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfeba84379500ca15113b46bf96d3c2a}{Pentland}{P\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{47890e42728ceaedaea73aa25ff40684}
+      \strng{fullhash}{61f70c4148ffb1b06e60e298d6b7127e}
+      \field{sortinit}{Z}
+      \field{extrayear}{1}
+      \field{labelyear}{2015}
+      \field{labeltitle}{Enigma: Decentralized Computation Platform with Guaranteed Privacy}
+      \field{journaltitle}{arXiv preprint arXiv:1506.03471}
+      \field{title}{Enigma: Decentralized Computation Platform with Guaranteed Privacy}
+      \field{year}{2015}
+    \endentry
+    \entry{zyskind2015decentralizing}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73d8999a1b8b2755b8155897fcf44b30}{Nathan}{N\bibinitperiod}{Oz}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=31d32ee3740bfb3e0e234537cdd5515d}{Pentland}{P\bibinitperiod}{Alex'Sandy'}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4b3240771dda5e05cf33fed0d9f05452}{Zyskind}{Z\bibinitperiod}{Guy}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73d8999a1b8b2755b8155897fcf44b30}{Nathan}{N\bibinitperiod}{Oz}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=31d32ee3740bfb3e0e234537cdd5515d}{Pentland}{P\bibinitperiod}{Alex'Sandy'}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{47890e42728ceaedaea73aa25ff40684}
+      \strng{fullhash}{7af7725f9e71d1728a33a10b275f0487}
+      \field{sortinit}{Z}
+      \field{extrayear}{2}
+      \field{labelyear}{2015}
+      \field{labeltitle}{Decentralizing Privacy: Using Blockchain to Protect Personal Data}
+      \field{booktitle}{Security and Privacy Workshops (SPW), 2015 IEEE}
+      \field{title}{Decentralizing Privacy: Using Blockchain to Protect Personal Data}
+      \field{year}{2015}
+      \field{pages}{180\bibrangedash 184}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

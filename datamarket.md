@@ -42,7 +42,26 @@ Idea: Every requester establishes a payment channel with a hub and the hub estab
 https://datacoup.com
 http://www.handshake.uk.com/
 
+## Data Markets
+
+* General:
+  * http://datamarket.azure.com/
+
+* Financial:
+  * http://www.xignite.com/
+
+* Marketing:
+  * http://exelate.com/
+  * Oracle Data as a Service
+
+* Places:
+  * Factual
+
 http://thenextweb.com/insider/2013/09/17/whats-the-true-value-of-your-personal-data-meet-the-people-who-want-to-help-you-sell-it/
+
+## Privacy
+
+* People don't know how to value their privacy 
 
 
 

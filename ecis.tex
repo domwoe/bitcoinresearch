@@ -1,0 +1,142 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts}
+\usepackage{scrpage2}
+\usepackage{scrtime}
+\usepackage{setspace}
+\usepackage[
+backend=biber, 
+style=authoryear-ibid,
+sorting=nyt, 
+hyperref=false, 
+backref=false, 
+%url=false, 
+isbn=false, 
+doi=false, 
+firstinits=true, % render first and middle names as initials
+uniquename=init, 
+maxbibnames=10,
+maxcitenames=2, %3 already et. al? 
+uniquelist=false % needs to be set, otherwise maxcitenames is ignored (default of maxcitenames is 3)
+]{biblatex}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{verbatim}
+%\usepackage{bibunits}
+\usepackage{float}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\addbibresource{ecis.bib}
+
+\begin{document}
+
+\section{White Papers}
+
+\textbf{Title:} Consensus-as-a-service: a brief report on the emergence of permissioned, distributed ledger systems \parencite{swansonconsensus} \\
+\textbf{Notes:} 
+
+\section{General}
+
+\textbf{Title:} Why Bitcoin Has Value \parencite{VanAlstyne:2014:WBV:2594413.2594288} \\
+\textbf{Notes:} 
+
+\section{Computer Science}
+
+\textbf{Title:} SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies \parencite{bonneau2015sok} \\
+\textbf{Abstract:} Bitcoin has emerged as the most successful cryptographic
+currency in history. Within two years of its quiet launch
+in 2009, Bitcoin grew to comprise billions of dollars of economic
+value despite only cursory analysis of the system’s design. Since
+then a growing literature has identified hidden-but-important
+properties of the system, discovered attacks, proposed promising
+alternatives, and singled out difficult future challenges.
+Meanwhile a large and vibrant open-source community has
+proposed and deployed numerous modifications and extensions.
+We provide the first systematic exposition Bitcoin and the
+many related cryptocurrencies or ‘altcoins.’ Drawing from a
+scattered body of knowledge, we identify three key components
+of Bitcoin’s design that can be decoupled. This enables a more
+insightful analysis of Bitcoin’s properties and future stability.
+We map the design space for numerous proposed modifications,
+providing comparative analyses for alternative consensus
+mechanisms, currency allocation mechanisms, computational
+puzzles, and key management tools. We survey anonymity
+issues in Bitcoin and provide an evaluation framework for
+analyzing a variety of privacy-enhancing proposals. Finally
+we provide new insights on what we term disintermediation
+protocols, which absolve the need for trusted intermediaries
+in an interesting set of applications. We identify three general
+disintermediation strategies and provide a detailed comparison.\\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+\textbf{Title:} How to Use Bitcoin to Design Fair Protocols \parencite{bentov2014} \\
+\textbf{Abstract:}We study a model of fairness in secure computation in which an adversarial party that aborts on receiving output is forced to pay a mutually predefined monetary penalty. We then show how the Bitcoin network can be used to achieve the above notion of fairness in the two-party as well as the multiparty setting (with a dishonest majority). In particular, we propose new ideal functionalities and protocols for fair secure computation and fair lottery in this model.
+One of our main contributions is the definition of an ideal primitive, which we call F*CR (CR stands for “claim-or-refund”), that formalizes and abstracts the exact properties we require from the Bitcoin network to achieve our goals. Naturally, this abstraction allows us to design fair protocols in a hybrid model in which parties have access to the F*CR functionality, and is otherwise independent of the Bitcoin ecosystem. We also show an efficient realization of 
+F*CR that requires only two Bitcoin transactions to be made on the network.
+Our constructions also enjoy high efficiency. In a multiparty setting, our protocols only require a constant number of calls to F*CR per party on top of a standard multiparty secure computation protocol. Our fair multiparty lottery protocol improves over previous solutions which required a quadratic number of Bitcoin transactions.\\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+
+\textbf{Title:} Is Bitcoin a Decentralized Currency? \parencite{10.1109/MSP.2014.49} \\
+\textbf{Abstract:} Bitcoin has achieved large-scale acceptance and popularity by promising its users a fully
+decentralized and low-cost virtual currency system. However, recent incidents and observations
+are revealing the true limits of decentralization in the Bitcoin system. In this article, we
+show that the vital operations and decisions that Bitcoin is currently undertaking are not
+decentralized. More specifically, we show that a limited set of entities currently control the
+services, decision making, mining, and the incident resolution processes in Bitcoin. We also
+show that third-party entities can unilaterally decide to “devalue” any specific set of Bitcoin
+addresses pertaining to any entity participating in the system. Finally, we explore possible
+avenues to enhance the decentralization in the Bitcoin system.\\
+\textbf{Methodology:} \\
+\textbf{Notes:} 
+
+\section{Economics and Social Sciences}
+
+\textbf{Title:} Bitcoin: Economics, Technology, and Governance \parencite{bohme2015} \\
+\textbf{Abstract:} Bitcoin is an online communication protocol that facilitates the use of a virtual currency, including electronic payments. Bitcoin's rules were designed by engineers with no apparent influence from lawyers or regulators. Bitcoin is built on a transaction log that is distributed across
+a network of participating computers. It includes mechanisms to reward honest participation, to bootstrap acceptance by early adopters, and to guard against concentrations of power. Bitcoin's design allows for irreversible transactions, a prescribed path of money creation over time, and a
+public transaction history. Anyone can create a Bitcoin account, without charge and without any centralized vetting procedure or even a requirement to provide a real name. Collectively, these rules yield a system that is understood to be more flexible, more private, and less amenable
+to regulatory oversight than other forms of payment;though as we discuss, all these benefits face important limits. Bitcoin is of interest to economists as a virtual currency with potential to disrupt existing payment systems and perhaps even monetary systems. This article presents the
+platform's design principles and properties for a nontechnical audience; reviews its past, present, and future uses; and points out risks and regulatory issues as Bitcoin interacts with the conventional financial system and the real economy. \\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+\textbf{Title:} The economics of Bitcoin and similar private digital currencies \parencite{Dwyer201581} \\
+\textbf{Abstract:} Abstract Recent innovations have made it feasible to transfer private digital currency without the intervention of an organization such as a bank. Any currency must prevent users from spending their balances more than once, which is easier said than done with purely digital currencies. Current digital currencies such as Bitcoin use peer-to-peer networks and open source software to stop double spending and create finality of transactions. This paper explains how the use of these technologies and limitation of the quantity produced can create an equilibrium in which a digital currency has a positive value. This paper also summarizes the rise of 24/7 trading on computerized markets in Bitcoin in which there are no brokers or other agents. The average monthly volatility of returns on Bitcoin is higher than for gold or a set of foreign currencies in dollars, but the lowest monthly volatilities for Bitcoin are less than the highest monthly volatilities for gold and the foreign currencies \\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+\section{Information Systems}
+
+\subsection{Bitcoin}
+
+\textbf{Title:} Cryptocurrencies and Bitcoin: Charting the Research Landscape \parencite{morisse2015cryptocurrencies} \\
+\textbf{Methodology:} Literature Review (IS libraries and databases) \\
+\textbf{Notes:} Call for business model research
+
+\textbf{Title:} Value Creation in Cryptocurrency Networks: Towards A Taxonomy of Digital Business Models for Bitcoin Companies \parencite{kazan2015value} \\
+\textbf{Methodology:} Selection of 5 Bitcoin companies that should represent the ecosystem; Data: Interviews and public news/websites; Extraction and Discussion of the following dimensions: value dimensions, digital business model, value configuration
+
+\textbf{Title:} Beyond Cryptocurrencies-A Taxonomy of Decentralized Consensus Systems \parencite{glaser2015beyond} \\
+\textbf{Abstract:} The advent of Bitcoin in 2009 has not only introduced Cryptocurrencies and lead to a new digitization movement in the financial, especially payments industry but also made way for a new breed of innovative technologies based on decentralized digital currencies. Generally, decentralized consensus systems could change the very nature of how companies, organizations and individuals are built and interact with each other. Decentralized consensus systems, decentralized applications and smart contracts provide the conceptual framework as well as the technological basis to establish predefined, incorruptible protocols and contracts to organize human behavior and interconnectedness. However, the technical protocols and implementations are quite complex and practitioners as well as interdisciplinary researchers not familiar with cryptography, network protocols or decentralized networks are struggling to find access to these concepts and grasp their potential. To fill this gap, we develop a comprehensive taxonomy of decentralized consensus systems in order to provide a tool for researchers and practitioners alike to facilitate classification and analysis of emerging technologies in the field of \"Crypto 2.0\", the next level of innovation beyond cryptocurrencies. \\
+\textbf{Methodology:} Taxonomy development following \cite{nickerson2013method}; Based on white papers and books \\
+\textbf{Notes:} Inaccurate at many places; detailed description of taxonomy development; final taxonomy of little value in my opinion
+
+\subsection{General}
+
+\textbf{Title:} On the User-centric Evolution of Mobile Money Technologies in Developing Nations: Successes and Lessons. \parencite{dibia2014evolution} \\
+\textbf{Methodology:} Description of ecosystem and actors; Description of  4 cases; Successesess factors
+
+\textbf{Title:} INTERMEDIARIES FOR THE INTERNET OF ENERGY – Exchanging Smart Meter Data as a Business Model. \parencite{struker2011intermediaries} \\
+\textbf{Methodology:} Discussion of current challenges and possible business model
+
+\textbf{Title:} M-Payment - How Disruptive Technologies Could Change The Payment Ecosystem \parencite{dahlberg2015m} \\
+\textbf{Methodology:} Literature Review on theoretical concepts with implications to m-payment services (platform theory, ecosystem theory, theory of money), and past mobile payment system research
+
+\printbibliography
+\end{document}

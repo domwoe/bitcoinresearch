@@ -38,6 +38,12 @@
 * [Enigma](http://enigma.media.mit.edu/)
  *
 
+* [BitMarkets](https://voluntary.net/bitmarkets/)
+ * Decentralized market place based on BitMessage and Bitcoin
+
+* [Orisi](http://orisi.org/)
+ * Open source framework for Bitcoin smart contracts
+
 
 ## Other Blockchain-based Projects
 
@@ -45,9 +51,14 @@
   * Prediction market
   * based on Ethereum
 
+* [EtherParty](http://etherparty.io/)
+
 
 * [Hawk](http://oblivm.com/hawk/)
   * Privacy-preserving Blockchain and Smart Contracts
   * Tx on the Blockchain are encrypted
   * Project of people from Cornell and U. of Maryland
+
+* [TauChain](http://www.idni.org/)
+  * Programmable decentralized P2P network based on ontologies and reasoning
 
