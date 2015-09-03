@@ -35,6 +35,23 @@ uniquelist=false % needs to be set, otherwise maxcitenames is ignored (default o
 
 \section{White Papers}
 
+\textbf{Title:} Bitcoin: A peer-to-peer electronic cash system \parencite{nakamoto2008bitcoin} \\
+\textbf{Abstract:} A purely peer-to-peer version of electronic cash would allow online
+payments to be sent directly from one party to another without going through a
+financial institution. Digital signatures provide part of the solution, but the main
+benefits are lost if a trusted third party is still required to prevent double-spending.
+We propose a solution to the double-spending problem using a peer-to-peer network.
+The network timestamps transactions by hashing them into an ongoing chain of
+hash-based proof-of-work, forming a record that cannot be changed without redoing
+the proof-of-work. The longest chain not only serves as proof of the sequence of
+events witnessed, but proof that it came from the largest pool of CPU power. As
+long as a majority of CPU power is controlled by nodes that are not cooperating to
+attack the network, they'll generate the longest chain and outpace attackers. The
+network itself requires minimal structure. Messages are broadcast on a best effort
+basis, and nodes can leave and rejoin the network at will, accepting the longest
+proof-of-work chain as proof of what happened while they were gone.\\
+\textbf{Notes:} 
+
 \textbf{Title:} The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments \parencite{poon2015bitcoin} \\
 \textbf{Abstract:} The bitcoin protocol can encompass the global financial transaction
 volume in all electronic payment systems today, without a single custodial
@@ -52,11 +69,14 @@ of decrementing timelocks.\\
 \textbf{Notes:} 
 
 \textbf{Title:} Consensus-as-a-service: a brief report on the emergence of permissioned, distributed ledger systems \parencite{swansonconsensus} \\
-\textbf{Notes:} 
+\textbf{Notes:} Discussion of permissioned distributed ledgers and their advantage over permissionless ledgers to handle off-chain assets; Overview of 8 companies in this space
 
 \section{General}
 
 \textbf{Title:} Why Bitcoin Has Value \parencite{VanAlstyne:2014:WBV:2594413.2594288} \\
+\textbf{Notes:}
+
+\textbf{Title:} Bitcoin: Under the Hood \parencite{Zohar:2015:BUH:2817191.2701411} \\
 \textbf{Notes:} 
 
 \section{Computer Science}
@@ -86,6 +106,16 @@ we provide new insights on what we term disintermediation
 protocols, which absolve the need for trusted intermediaries
 in an interesting set of applications. We identify three general
 disintermediation strategies and provide a detailed comparison.\\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+\textbf{Title:} Bitter to better — How to make bitcoin a better currency \parencite{barber2012bitter} \\
+\textbf{Abstract:} Bitcoin is a distributed digital currency which has attracted a substantial number of users. We perform an in-depth investigation to understand what made Bitcoin so successful, while decades of research on cryptographic e-cash has not lead to a large-scale deployment. We ask also how Bitcoin could become a good candidate for a long-lived stable currency. In doing so, we identify several issues and attacks of Bitcoin, and propose suitable techniques to address them.\\
+\textbf{Methodology:} \\
+\textbf{Notes:}
+
+\textbf{Title:} A Fistful of Bitcoins: Characterizing Payments Among Men with No Names \parencite{Meiklejohn:2013:FBC:2504730.2504747} \\
+\textbf{Abstract:} Bitcoin is a purely online virtual currency, unbacked by either physical commodities or sovereign obligation; instead, it relies on a combination of cryptographic protection and a peer-to-peer protocol for witnessing settlements. Consequently, Bitcoin has the unintuitive property that while the ownership of money is implicitly anonymous, its flow is globally visible. In this paper we explore this unique characteristic further, using heuristic clustering to group Bitcoin wallets based on evidence of shared authority, and then using re-identification attacks (i.e., empirical purchasing of goods and services) to classify the operators of those clusters. From this analysis, we characterize longitudinal changes in the Bitcoin market, the stresses these changes are placing on the system, and the challenges for those seeking to use Bitcoin for criminal or fraudulent purposes at scale.\\
 \textbf{Methodology:} \\
 \textbf{Notes:}
 
@@ -132,10 +162,35 @@ platform's design principles and properties for a nontechnical audience; reviews
 \subsection{Bitcoin}
 
 \textbf{Title:} Cryptocurrencies and Bitcoin: Charting the Research Landscape \parencite{morisse2015cryptocurrencies} \\
+\textbf{Abstract:} This systematic literature review examines cryptocurrencies (CCs) and Bitcoin. Because cryptocurrency
+research has not gained much attention from Information Systems (IS) researchers and needs a more
+vivid discussion, this review summarizes the main concepts of 42 papers and aligns them to IS Research.
+Although, cryptocurrency research has not reached IS mainstream yet, there is massive potential for
+multifaceted research ranging from protocol development to designing alternative digital currency
+schemes. Cryptocurrencies entail a core digital artifact and present a rich phenomenon based on the
+intertwining of technological artifacts and social contexts. We argue that cryptocurrencies are an
+alternative payment method that may replace intermediaries with cryptographic methods and should be
+embedded in the research areas of SIGeBIZ and SIGSEC. At the end of this literature review, we discuss
+some open research gaps like new business models based on cryptocurrencies or the influence of culture
+on cryptocurrencies and Bitcoin.\\
 \textbf{Methodology:} Literature Review (IS libraries and databases) \\
 \textbf{Notes:} Call for business model research
 
 \textbf{Title:} Value Creation in Cryptocurrency Networks: Towards A Taxonomy of Digital Business Models for Bitcoin Companies \parencite{kazan2015value} \\
+\textbf{Abstract:} Cryptocurrency networks have given birth to a diversity of start-ups and attracted a huge influx of
+venture capital to invest in these start-ups for creating and capturing value within and between such
+networks. Synthesizing strategic management and information systems (IS) literature, this study
+advances a unified theoretical framework for identifying and investigating how cryptocurrency
+companies configure value through digital business models. This framework is then employed, via
+multiple case studies, to examine digital business models of companies within the bitcoin network.
+Findings suggest that companies within the bitcoin network exhibits six generic digital business
+models. These six digital business models are in turn driven by three modes of value configurations
+with their own distinct logic for value creation and mechanisms for value capturing. A key finding of
+this study is that value-chain and value-network driven business models commercialize their products
+and services for each value unit transfer, whereas commercialization for value-shop driven business
+models is realized through the subsidization of direct users by revenue generating entities. This study
+contributes to extant literature on value configurations and digital businesses models within the
+emerging and increasingly pervasive domain of cryptocurrency networks.\\
 \textbf{Methodology:} Selection of 5 Bitcoin companies that should represent the ecosystem; Data: Interviews and public news/websites; Extraction and Discussion of the following dimensions: value dimensions, digital business model, value configuration
 
 \textbf{Title:} Beyond Cryptocurrencies-A Taxonomy of Decentralized Consensus Systems \parencite{glaser2015beyond} \\
