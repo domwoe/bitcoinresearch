@@ -340,7 +340,7 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Living on a Blockchain: A new paradigm for interaction with and management of smart objects}
+\title{Living on a Blockchain: A novel paradigm for economic interactions with pervasive systems}
 
 
 % author names and affiliations
@@ -349,7 +349,11 @@
 \author{\IEEEauthorblockN{Dominic W\"orner}
 \IEEEauthorblockA{Department of Management, Technology and Economics\\
 ETH Zurich\\
-Email: dwoerner@ethz.ch}}
+Email: dwoerner@ethz.ch}
+\and
+\IEEEauthorblockN{Who wants to be here?}
+\IEEEauthorblockA{}
+}
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -412,23 +416,56 @@ The abstract goes here.
 
 \section{Introduction}
 
+  A Blockchain is a linked data structure that is shared across nodes of a distributed network. The concept of a blockchain first appeared in \cite{nakamoto2008bitcoin} as a means \textit{to implement  a distributed timestamp server on a peer-to-peer basis}. The data that are timestamped, or more precisely ordered, are collections of bitcoin transactions. Thus, in a simple and intuitive interpretation the bitcoin blockchain provides consensus on who owns which coins. The need for a central database is exchanged for an append-only database that is replicated across network participants. The network is voluntary and anonymous. Special nodes in the network, called miners, vote for new entries. Instead of a one vote per node mechanism which leads to the thread of Sybil attacks, a voting mechanism based on hashing power, called Proof-of-Work, is used.
 
-\section{Related Work}
+  Bitcoin is designed to transfer on-chain assets, namely bitcoins, between to parties without involvement of a trusted third party. However, it readily provides a stack-based scripting language that enables to attach complex rules to bitcoin transactions and justifies the notion of programmable money. The scripting language is restricted, e.g. there are no loops and is thus not Turing complete, but it provides powerful cryptographic operators and is constantly extended.
+
+  The transaction data structure and the scripting language allow to build protocols on top of Bitcoin. Bitcoin is thereby mostly used either as a distributed timestamp server or as a settlement system for off-chain transactions. The rationale behind utilizing the Bitcoin blockchain as a general purpose timestamp server, instead of creating a tailored blockchain for each application, is the provided security against tamper and reorganization attacks. A blockchain based on Proof-of-work is secured by the hashing power of honest miners, and the Bitcoin network provides by far the most hashing power.
+
+  However, this does not mean Bitcoin is the only instantiation of a blockchain. There are literally thousands of alternative implementations, mostly with minor parameter adaptations. And there are ambitious projects like Ethereum which aim to provide a general purpose scripting language with storage and state. 
+
+  Unpermissioned voluntary, and thus censorship resistant, blockchains are coupled with an on-chain currency to incentivize participation and securing the blockchain. In what follows, we exclusively discuss this kind of blockchains in contrast to permissioned blockchains with known participants which sacrifice these characteristics for greater efficiency due to abandoning the expensive proof-of-work mechanism.
+
+  In this paper, we introduce concepts to couple pervasive systems with blockchains. This will enable pervasive systems to be economic actors, that may provide or request services in exchange of money, and that are aware of their ownership status, making it easy to transfer ownership either temporarily or permanently.  
 
 
 
 \section{Concepts}
 
-\subsection{Pay-for-Service}
+\subsection{Pay for service}
+
+\subsubsection{Description}
+
+\subsubsection{Used blockchain characteristics}
+
+\subsubsection{Example}
+Sensing as a Service
 
 \subsection{Transfer of Ownership}
 
 \subsubsection{Selling}
 
+\subsubsection{Description}
+
+
+\subsubsection{Used blockchain characteristics}
+
+\subsubsection{Example}
+What would be a good example?
+
 \subsubsection{Renting}
+
+\subsubsection{Description}
+
+\subsubsection{Used blockchain characteristics}
+
+\subsubsection{Example}
+Carsharing
 
 
 \section{Implementation}
+
+Description of how these patterns can be implemented using Bitcoin (and colored coin implementations) and Ethereum
 
 \subsection{Pay-for-Service}
 
@@ -436,6 +473,16 @@ The abstract goes here.
 
 
 \section{Discussion}
+
+\begin{itemize}
+\item Discussion of concepts and implementation
+\item Advantages over centralized management of smart objects
+\item Advantages and disadvantages of implementations based on Bitcoin and Ethereum
+\item Problems/Limitations
+\end{itemize}
+
+
+\section{Related Work}
 
 
 \section{Conclusion}
@@ -538,13 +585,6 @@ The abstract goes here.
 
 
 
-
-\section{Conclusion}
-The conclusion goes here.
-
-
-
-
 % conference papers do not normally have an appendix
 
 
@@ -580,20 +620,14 @@ The authors would like to thank...
 % http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
 % The IEEEtran BibTeX style support page is at:
 % http://www.michaelshell.org/tex/ieeetran/bibtex/
-%\bibliographystyle{IEEEtran}
+\bibliographystyle{IEEEtran}
 % argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
+\bibliography{percom}
 %
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
 
 
 
