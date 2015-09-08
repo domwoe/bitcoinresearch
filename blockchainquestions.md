@@ -3,3 +3,30 @@
 	* Micropayment channels
 	* Multi-sig
 	* Colored coins
+
+
+### How to structure a database 
+
+* Transaction
+	* TxId
+	* Amount
+	* Fee
+	* Timestamp
+	* BlockId
+	* BlockNr
+	* Type
+
+* Input
+	* InputId
+	* Amount
+	* TxId
+	* Script
+	* Type
+
+* Output
+	* OutputId
+	* Amount
+	* TxId
+	* Script
+	* Type
+
