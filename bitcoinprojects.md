@@ -62,3 +62,6 @@
 * [TauChain](http://www.idni.org/)
   * Programmable decentralized P2P network based on ontologies and reasoning
 
+
+  http://blog.ventureradar.com/2015/09/08/top-25-non-financial-blockchain-startups/
+

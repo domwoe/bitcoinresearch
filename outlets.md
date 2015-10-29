@@ -28,6 +28,11 @@
 
 * MobiSys
 
+* [PACIS](http://www.pacis2016.org/) 27.06.2016 - 01.07.2016, Chiayi, Taiwan
+  * Full Paper Submission: 04.03.2016
+
+* [AMCIS](http://amcis2016.aisnet.org/) 11.08.2016 - 13.08.2016, San Diego, USA
+
 ## Journals
 
 * Pervasive and Mobile Computing
