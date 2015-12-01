@@ -22,7 +22,10 @@
   * Submission: 12.02.2016
 
 * [Mobiquitous](http://mobiquitous.org/2016) (28.11.2016 - 01.12.2016, Hiroshima, Japan)
-  * Full Paper Submission: 31.03.2016
+  * Full Paper Submission: 27.06.2016
+
+* [UbiComp]() (September, Heidelberg)
+  * Full Paper Submission: Beginning of March
 
 * MobiCom
 
@@ -32,6 +35,11 @@
   * Full Paper Submission: 04.03.2016
 
 * [AMCIS](http://amcis2016.aisnet.org/) 11.08.2016 - 13.08.2016, San Diego, USA
+
+* [ICIS](http://icis2016.aisnet.org/) 11.12.2016 - 14.12.2016, Dublin, Ireland
+
+
+* [IEEE SECON](http://secon2016.ieee-secon.org/cfp)
 
 ## Journals
 
@@ -52,7 +60,7 @@
   * Impact Factor: ???
   * Special Issues:
     * [New Paradigms in Ad Hoc, Sensor and Mesh Networks, From Theory to Practice](http://www.computer.org/cms/Computer.org/transactions/cfps/cfp_tetcsi_npahsmntp.pdf), Deadline 01.12.2015
-    * [Special Issue on Sensor Data Computing as a Service in Internet of Things](http://www.computer.org/cms/Computer.org/transactions/cfps/cfp_tetcsi_sdcsiot.pdf), Deadline 01.06.2016
+    * [Special Issue on Sensor Data Computing as a Service in Internet of Things](http://www.computer.org/cms/Computer.org/transactions/cfps/cfp_tetcsi_sdcsiot.pdf),    01.06.2016
 
 * Personal and Ubiquitous Computing
   * Publisher: Springer
